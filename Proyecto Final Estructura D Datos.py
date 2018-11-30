@@ -190,7 +190,7 @@ def Estadistica():                              #Metodo que realiza la estadisti
 def Menu():
     print("\n\n1.- Probar denuevo (1 nuevo arreglo desordenado)."         #Menu...
           "\n2.- Probar 30 arreglos y generar estadistica."
-          "\n2.- Salir.")
+          "\n3.- Salir.")
     eleccion = input("Que desea realizar?: ")
     if eleccion.isdigit():                  #Compruebo si esta ingresando un digito como valor.
         if eleccion == "1":                 #Si eligio esta opcion es para hacer una sola vez el ordenamiento del arreglo.
